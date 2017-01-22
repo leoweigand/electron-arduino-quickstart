@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Quickstart with Arduino and Electron</title>
+    <script>
+    	// to use jQuery and others, window.module should not exist
+    	// this renames it to window.nodeModule
+    	window.nodeModule = window.module;
+    	delete window.module;
+    </script>
+    <script src="lib/jquery-3.1.1.min.js"></script>
+    <script src="main.js"></script>
+  </head>
+  <body>
+    <button>Toggle onboard LED</button>
+  </body>
+</html>
