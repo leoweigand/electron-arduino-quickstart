@@ -14,7 +14,7 @@ cd electron-arduino-quickstart
 npm install
 ```
 Use `npm start` to run your app and you are ready to go!
-
+  
 If you get an error because of missing **xcode-commandline-tools**, install the command-line-tools and execute `npm run postinstall`. After that, you can use npm start as shown before.
 
 ## What’s next?
