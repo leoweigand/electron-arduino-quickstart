@@ -1,0 +1,27 @@
+{
+  "name": "electron-arduino-quickstart",
+  "version": "1.0.0",
+  "description": "Boilerplate for getting started with Arduino and Electron",
+  "main": "window.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "./node_modules/.bin/electron-rebuild -v $(electron -v)"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leoweigand/electron-arduino-quickstart.git"
+  },
+  "author": "Leo Weigand",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/leoweigand/electron-arduino-quickstart/issues"
+  },
+  "homepage": "https://github.com/leoweigand/electron-arduino-quickstart#readme",
+  "devDependencies": {
+    "electron": "^1.4.15",
+    "electron-rebuild": "^1.5.7"
+  },
+  "dependencies": {
+    "johnny-five": "^0.10.6"
+  }
+}
