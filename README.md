@@ -8,7 +8,7 @@ Be sure to have [node.js](https://nodejs.org/en/) installed as well.
 ## How to use
 First, hook up your Arduino with Firmata loaded on to it.
 Next, clone this repository and install the dependencies:
-```javascript
+```bash
 git clone https://github.com/leoweigand/electron-arduino-quickstart.git
 npm install
 ```
