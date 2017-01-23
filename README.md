@@ -1,6 +1,6 @@
 # Quickstart for Electron and Arduino
 ![](https://rawgit.com/leoweigand/electron-arduino-quickstart/master/poster.png)
-This repository is a quick-start for using [Arduino](https://www.arduino.cc/) with [Electron](http://electron.atom.io/) and [Johnny-Five](http://johnny-five.io/), which is a great way to get started with hardware prototyping in JavaScript. it is loosely based on the [electron-quickstart](https://github.com/electron/electron-quick-start) repository and follows a [tutorial](http://meow.noopkat.com/using-johnny-five-within-an-electron-app/) by @noopkat.
+This repository is a quick-start for using [Arduino](https://www.arduino.cc/) with [Electron](http://electron.atom.io/) and [Johnny-Five](http://johnny-five.io/), which is a great way to get started with hardware prototyping in JavaScript. It is loosely based on the [electron-quickstart](https://github.com/electron/electron-quick-start) repository and follows a [tutorial](http://meow.noopkat.com/using-johnny-five-within-an-electron-app/) by @noopkat.
 
 ## Prerequisites
 First, you have to install Firmata on your Arduino, which is a protocol to control microcontrollers. In the Arduino IDE, select the `Firmata Plus` sketch from the examples and upload it to your board.
