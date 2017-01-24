@@ -4,7 +4,10 @@ This repository is a quick-start for using [Arduino](https://www.arduino.cc/) wi
 
 ## Prerequisites
 First, you have to install Firmata on your Arduino, which is a protocol for communicating with microcontrollers. In the Arduino IDE, select the `Firmata Plus` sketch from the examples folder and upload it to your board.
-Be sure to have [node.js](https://nodejs.org/en/) installed as well.
+Be sure to have [node.js](https://nodejs.org/en/) installed, as well Electron:
+```bash
+npm install -g electron
+```
 
 ## How to use
 First, hook up your Arduino with Firmata loaded on to it.
