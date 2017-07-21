@@ -23,6 +23,7 @@
     "electron-rebuild": "^1.5.7"
   },
   "dependencies": {
+    "electron-reload": "^1.2.1",
     "johnny-five": "^0.10.6"
   }
 }
