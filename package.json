@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/leoweigand/electron-arduino-quickstart#readme",
   "dependencies": {
-    "electron": "^1.6.11",
+    "electron": "^1.7.5",
     "johnny-five": "^0.10.13"
   },
   "devDependencies": {
