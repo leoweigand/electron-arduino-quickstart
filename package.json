@@ -4,9 +4,9 @@
   "description": "Boilerplate for getting started with Arduino and Electron",
   "main": "window.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "postinstall": "./node_modules/.bin/electron-rebuild -v $(electron -v)",
-    "start": "electron ."
+    "postinstall": "./node_modules/.bin/electron-rebuild -v $(./node_modules/.bin/electron -v)",
+    "start": "./node_modules/.bin/electron .",
+    "watch": "./node_modules/.bin/electron . --watch"
   },
   "repository": {
     "type": "git",
@@ -18,12 +18,12 @@
     "url": "https://github.com/leoweigand/electron-arduino-quickstart/issues"
   },
   "homepage": "https://github.com/leoweigand/electron-arduino-quickstart#readme",
-  "devDependencies": {
-    "electron": "^1.4.15",
-    "electron-rebuild": "^1.5.7"
-  },
   "dependencies": {
-    "electron-reload": "^1.2.1",
-    "johnny-five": "^0.10.6"
+    "electron": "^1.6.11",
+    "johnny-five": "^0.10.13"
+  },
+  "devDependencies": {
+    "electron-rebuild": "^1.5.7",
+    "electron-reload": "^1.2.1"
   }
 }
