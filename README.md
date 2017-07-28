@@ -3,7 +3,7 @@
 This repository is a quick-start for using [Arduino](https://www.arduino.cc/) with [Electron](http://electron.atom.io/) and [Johnny-Five](http://johnny-five.io/), which is a great way to get started with hardware prototyping in JavaScript. It is loosely based on the [electron-quickstart](https://github.com/electron/electron-quick-start) repository and follows a [tutorial](http://meow.noopkat.com/using-johnny-five-within-an-electron-app/) by @noopkat.
 
 ## Prerequisites
-First, you need Firmata installed on your Arduino board. Firmata is a protocol for communicating with microcontrollers and enables us to talk to the board from node.js. Using the [Arduino IDE](https://www.arduino.cc/en/Main/Software), open the `Firmata Plus` sketch from the examples and upload it onto your board.
+First, you need Firmata installed on your Arduino board. Firmata is a protocol for communicating with microcontrollers and enables us to talk to the board from node.js. Using the [Arduino IDE](https://www.arduino.cc/en/Main/Software), open the `Firmata Plus` sketch from the examples and upload it onto your board. If you are stuck during this step, follow [this tutorial](http://www.instructables.com/id/Arduino-Installing-Standard-Firmata/).
 
 If you do not have node.js installed yet, get the [latest release](https://nodejs.org/en/) from their website.
 
