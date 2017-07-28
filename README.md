@@ -3,15 +3,13 @@
 This repository is a quick-start for using [Arduino](https://www.arduino.cc/) with [Electron](http://electron.atom.io/) and [Johnny-Five](http://johnny-five.io/), which is a great way to get started with hardware prototyping in JavaScript. It is loosely based on the [electron-quickstart](https://github.com/electron/electron-quick-start) repository and follows a [tutorial](http://meow.noopkat.com/using-johnny-five-within-an-electron-app/) by @noopkat.
 
 ## Prerequisites
-First, you have to install Firmata on your Arduino, which is a protocol for communicating with microcontrollers. In the Arduino IDE, select the `Firmata Plus` sketch from the examples folder and upload it to your board.
-Be sure to have [node.js](https://nodejs.org/en/) installed, as well Electron:
-```bash
-npm install -g electron
-```
+First, you need Firmata installed on your Arduino board. Firmata is a protocol for communicating with microcontrollers and enables us to talk to the board from node.js. Using the [Arduino IDE](https://www.arduino.cc/en/Main/Software), open the `Firmata Plus` sketch from the examples and upload it onto your board.
+
+If you do not have node.js installed yet, get the [latest release](https://nodejs.org/en/) from their website.
 
 ## How to use
 First, hook up your Arduino with Firmata loaded on to it.
-Next, clone this repository and install the dependencies:
+Clone this repository and install the dependencies:
 ```bash
 git clone https://github.com/leoweigand/electron-arduino-quickstart.git
 cd electron-arduino-quickstart
@@ -19,7 +17,7 @@ npm install
 ```
 Use `npm start` to run your app and you are ready to go!
   
-If you get an error because of missing **xcode-commandline-tools**, install the command-line-tools and execute `npm run postinstall`. After that, you should be able to use npm start as shown before.
+If you get an error because of missing **xcode-commandline-tools**, install them from the window that pops up. After that, you may need to execute `npm run postinstall` before you are able to run the app using `npm start`.
 
 ## What’s next?
 I recommend looking into the documentation of both Johnny-Five and Electron for more information on the topic. If something is not working, feel free to [open a new issue](https://github.com/leoweigand/electron-arduino-quickstart/issues/new).
