@@ -23,7 +23,7 @@
     "johnny-five": "^0.10.13"
   },
   "devDependencies": {
-    "electron-rebuild": "^1.5.7",
+    "electron-rebuild": "^1.5.11",
     "electron-reload": "^1.2.1"
   }
 }
