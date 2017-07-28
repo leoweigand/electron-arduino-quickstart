@@ -19,6 +19,9 @@ Use `npm start` to run your app and you are ready to go!
   
 If you get an error because of missing **xcode-commandline-tools**, install them from the window that pops up. After that, you may need to execute `npm run postinstall` before you are able to run the app using `npm start`.
 
+## Watching for changes
+This repository installs the [electron-reload](https://github.com/yan-foto/electron-reload) package to automatically reload your application when any of the files change. To activate it, simply run `npm run watch` instead of `npm start`.
+
 ## What’s next?
 I recommend looking into the documentation of both Johnny-Five and Electron for more information on the topic. If something is not working, feel free to [open a new issue](https://github.com/leoweigand/electron-arduino-quickstart/issues/new).
 
