@@ -5,7 +5,7 @@ This repository is a quick-start for using [Arduino](https://www.arduino.cc/) wi
 ## Prerequisites
 First, you need Firmata installed on your Arduino board. Firmata is a protocol for communicating with microcontrollers and enables us to talk to the board from node.js. Using the [Arduino IDE](https://www.arduino.cc/en/Main/Software), open the `Firmata Plus` sketch from the examples and upload it onto your board. If you are stuck during this step, follow [this tutorial](http://www.instructables.com/id/Arduino-Installing-Standard-Firmata/).
 
-If you do not have node.js installed yet, get the [latest release](https://nodejs.org/en/) from their website.
+Also, if you do not have node.js installed yet, get the [latest release](https://nodejs.org/en/) from their website.
 
 ## How to use
 First, hook up your Arduino with Firmata loaded on to it.
